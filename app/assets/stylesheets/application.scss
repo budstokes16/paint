@@ -1,6 +1,7 @@
 @import 'bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Livvic|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
 
 .yah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -18,10 +19,13 @@
 	clear: both;
 }
 
+.frosty {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
 .navbar {
-		background-color: #948a8a;
-		color: #948a8a;
-		box-shadow: 10px 10px 5px;
+		background-color: white;
   	margin-bottom: 0;
 }
 
@@ -63,12 +67,15 @@
 .logo {
 	height: 65px;
 	width: 100px;
+	padding: 10px;
 }
 
 .nav-link {
-	font-size: 35px;
+	font-size: 25px;
 	font-family: 'Livvic', sans-serif;
+	padding: 15px;
 }
+
 .home-title {
 	font-size: 35px;
 	text-align: center;
@@ -96,10 +103,48 @@
 }
 
 .about-title {
-	color: #948a8a;
-	font-weight: 150;
-	font-size: 75px;
-	text-align: center;
-	text-shadow: 5px 5px #948a8a;
-	font-family: 'Livvic', sans-serif;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 50px;
+}
+
+.about-title-us {
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.about-img {
+  background: image_url('paint-cans.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  bow-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.about-body {
+	background-color: #e3dfdb;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 25px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-img{
+  background: image_url('call-us.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  bow-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.contact-header{
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 45px;
 }
